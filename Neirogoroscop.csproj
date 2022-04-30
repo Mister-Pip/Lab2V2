@@ -8,8 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="zDhKKcqBHQ-lorJi7BP-apNjV_S-B7FXF8utPGcPg_62a61YxvUUfsTlZFjp4tvxdvYHaBHsmQ1IyPI72xapId4s.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="JsonFormatterPlus" Version="1.0.2" />
+    <PackageReference Include="MaterialDesignThemes" Version="4.5.0" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="zDhKKcqBHQ-lorJi7BP-apNjV_S-B7FXF8utPGcPg_62a61YxvUUfsTlZFjp4tvxdvYHaBHsmQ1IyPI72xapId4s.jpg" />
   </ItemGroup>
 
 </Project>
