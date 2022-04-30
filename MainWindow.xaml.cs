@@ -16,7 +16,8 @@ namespace Neirogoroscop
             
         }
         static string sourceResponce = " ";
-        string GetInfo() 
+
+        static string GetInfo() 
         {
             string fullUri = "https://api.vk.com/method/wall.get?owner_id=-193489972&domain=neural_horo&offset=1&count=1&filter=owner&access_token=17e4a27817e4a27817e4a278501798ecf4117e417e4a2787580b4e4cac4860d5413f8f1&v=5.131"; // <- ссылка
     
@@ -35,7 +36,7 @@ namespace Neirogoroscop
             }
             return sourceResponce;
         }
-        
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             GetInfo();

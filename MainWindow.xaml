@@ -6,9 +6,9 @@
         xmlns:local="clr-namespace:Neirogoroscop"
         mc:Ignorable="d"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-        Title="MainWindow" Height="800" Width="800">
+        Title="MainWindow" Height="850" Width="850">
     <Grid Margin="0,0,0,0">
-        <TextBox x:Name="outputTextbox" HorizontalAlignment="Left" Margin="190,202,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="552" Height="410" FontSize="15" Cursor="Arrow"/>
+        <TextBox x:Name="outputTextbox" HorizontalAlignment="Left" Margin="190,202,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="552" Height="410" FontSize="15" Cursor="Arrow" IsReadOnly="True"/>
         <Button x:Name="ScorpionButton" Content="Скорпион" HorizontalAlignment="Left" Margin="50,472,0,0" Width="100" VerticalAlignment="Top" Click="ScorpionButton_Click"/>
         <Button x:Name="StrelecButton" Content="Стрелец" HorizontalAlignment="Left" Margin="50,517,0,0" Width="100" VerticalAlignment="Top" Click="StrelecButton_Click"/>
         <Button x:Name="OvenButton" Content="Овен" HorizontalAlignment="Left" Margin="50,157,0,0" Width="100" VerticalAlignment="Top" Click="OvenButton_Click" Cursor="Hand"/>
@@ -24,7 +24,7 @@
         <Label x:Name="Label1" Content="Ваш гороскоп:" HorizontalAlignment="Left" Margin="412,142,0,0" VerticalAlignment="Top" FontSize="17"/>
         <Button Content="Показать все" HorizontalAlignment="Left" Margin="420,652,0,0" VerticalAlignment="Top" Click="Button_Click" Width="Auto"/>
         <Label Content="Powered by vk.com/neural__horo" HorizontalAlignment="Left" Margin="644,734,0,0" VerticalAlignment="Top" FontSize="9"/>
-        <Label Content="Neural Horoscop" HorizontalAlignment="Left" Margin="371,63,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Trebuchet MS" FontSize="25" FontWeight="Bold" FontStyle="Italic"/>
+        <Label Content="Neural Horoscop" HorizontalAlignment="Left" Margin="190,61,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Trebuchet MS" FontSize="25" FontWeight="Bold" FontStyle="Italic"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="50,30,0,0" VerticalAlignment="Top" Width="100" Source="/zDhKKcqBHQ-lorJi7BP-apNjV_S-B7FXF8utPGcPg_62a61YxvUUfsTlZFjp4tvxdvYHaBHsmQ1IyPI72xapId4s.jpg"/>
     </Grid>
 </Window>
