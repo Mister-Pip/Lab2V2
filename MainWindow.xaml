@@ -6,25 +6,36 @@
         xmlns:local="clr-namespace:Neirogoroscop"
         mc:Ignorable="d"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
-        Title="MainWindow" Height="850" Width="850">
-    <Grid Margin="0,0,0,0">
-        <TextBox x:Name="outputTextbox" HorizontalAlignment="Left" Margin="190,202,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="552" Height="410" FontSize="15" Cursor="Arrow" IsReadOnly="True"/>
-        <Button x:Name="ScorpionButton" Content="Скорпион" HorizontalAlignment="Left" Margin="50,472,0,0" Width="100" VerticalAlignment="Top" Click="ScorpionButton_Click"/>
-        <Button x:Name="StrelecButton" Content="Стрелец" HorizontalAlignment="Left" Margin="50,517,0,0" Width="100" VerticalAlignment="Top" Click="StrelecButton_Click"/>
-        <Button x:Name="OvenButton" Content="Овен" HorizontalAlignment="Left" Margin="50,157,0,0" Width="100" VerticalAlignment="Top" Click="OvenButton_Click" Cursor="Hand"/>
-        <Button x:Name="RibiButton" Content="Рыбы" HorizontalAlignment="Left" Margin="50,652,0,0" Width="100" VerticalAlignment="Top" Click="RibiButton_Click" Cursor="Hand"/>
-        <Button x:Name="TelezButton" Content="Телец" HorizontalAlignment="Left" Margin="50,202,0,0" Width="100" VerticalAlignment="Top" Click="TelezButton_Click"/>
-        <Button x:Name="BlizneziButton" Content="Близнецы" HorizontalAlignment="Left" Margin="50,247,0,0" Width="100" VerticalAlignment="Top" Click="BlizneziButton_Click" RenderTransformOrigin="0.47,-0.905"/>
-        <Button x:Name="RakButton" Content="Рак" HorizontalAlignment="Left" Margin="50,292,0,0" Width="100" VerticalAlignment="Top" Click="RakButton_Click"/>
-        <Button x:Name="LevButton" Content="Лев" HorizontalAlignment="Left" Margin="50,337,0,0" Width="100" VerticalAlignment="Top" Click="LevButton_Click"/>
-        <Button x:Name="DevaButton" Content="Дева" HorizontalAlignment="Left" Margin="50,382,0,0" Width="100" VerticalAlignment="Top" Click="DevaButton_Click"/>
-        <Button x:Name="VesiButton" Content="Весы" HorizontalAlignment="Left" Margin="50,427,0,0" Width="100" VerticalAlignment="Top" Click="VesiButton_Click"/>
-        <Button x:Name="VodoleyButton" Content="Водолей" HorizontalAlignment="Left" Margin="50,607,0,0" Width="100" VerticalAlignment="Top" Click="VodoleyButton_Click"/>
-        <Button x:Name="KozerogButton" Content="Козерог" HorizontalAlignment="Left" Margin="50,562,0,0" Width="100" VerticalAlignment="Top" Click="KozerogButton_Click"/>
-        <Label x:Name="Label1" Content="Ваш гороскоп:" HorizontalAlignment="Left" Margin="412,142,0,0" VerticalAlignment="Top" FontSize="17"/>
-        <Button Content="Показать все" HorizontalAlignment="Left" Margin="420,652,0,0" VerticalAlignment="Top" Click="Button_Click" Width="Auto"/>
-        <Label Content="Powered by vk.com/neural__horo" HorizontalAlignment="Left" Margin="644,734,0,0" VerticalAlignment="Top" FontSize="9"/>
-        <Label Content="Neural Horoscop" HorizontalAlignment="Left" Margin="190,61,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Trebuchet MS" FontSize="25" FontWeight="Bold" FontStyle="Italic"/>
-        <Image HorizontalAlignment="Left" Height="100" Margin="50,30,0,0" VerticalAlignment="Top" Width="100" Source="/zDhKKcqBHQ-lorJi7BP-apNjV_S-B7FXF8utPGcPg_62a61YxvUUfsTlZFjp4tvxdvYHaBHsmQ1IyPI72xapId4s.jpg"/>
+        Title="NeuralHoro" Height="850" Width="850">
+    <Grid Background="#ffdadada">
+        <Border MinWidth="100" Margin="20,0,20,0" Background="White" VerticalAlignment="Center" Padding="30" CornerRadius="20" Height="774">
+            <Border.Effect>
+                <DropShadowEffect BlurRadius="25" Color="Black" ShadowDepth="0"/>
+            </Border.Effect>
+        </Border>
+
+        <TextBox x:Name="outputTextbox" HorizontalAlignment="Left" Margin="215,251,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="552" Height="410" FontSize="15" Cursor="Arrow" IsReadOnly="True"/>
+        <Button x:Name="ScorpionButton" Content="Скорпион" HorizontalAlignment="Left" Margin="75,521,0,0" Width="100" VerticalAlignment="Top" Click="ScorpionButton_Click"/>
+        <Button x:Name="StrelecButton" Content="Стрелец" HorizontalAlignment="Left" Margin="75,566,0,0" Width="100" VerticalAlignment="Top" Click="StrelecButton_Click"/>
+        <Button x:Name="OvenButton" Content="Овен" HorizontalAlignment="Left" Margin="75,206,0,0" Width="100" VerticalAlignment="Top" Click="OvenButton_Click" Cursor="Hand"/>
+        <Button x:Name="RibiButton" Content="Рыбы" HorizontalAlignment="Left" Margin="75,701,0,0" Width="100" VerticalAlignment="Top" Click="RibiButton_Click" Cursor="Hand"/>
+        <Button x:Name="TelezButton" Content="Телец" HorizontalAlignment="Left" Margin="75,251,0,0" Width="100" VerticalAlignment="Top" Click="TelezButton_Click"/>
+        <Button x:Name="BlizneziButton" Content="Близнецы" HorizontalAlignment="Left" Margin="75,296,0,0" Width="100" VerticalAlignment="Top" Click="BlizneziButton_Click" RenderTransformOrigin="0.47,-0.905"/>
+        <Button x:Name="RakButton" Content="Рак" HorizontalAlignment="Left" Margin="75,341,0,0" Width="100" VerticalAlignment="Top" Click="RakButton_Click"/>
+        <Button x:Name="LevButton" Content="Лев" HorizontalAlignment="Left" Margin="75,386,0,0" Width="100" VerticalAlignment="Top" Click="LevButton_Click"/>
+        <Button x:Name="DevaButton" Content="Дева" HorizontalAlignment="Left" Margin="75,431,0,0" Width="100" VerticalAlignment="Top" Click="DevaButton_Click"/>
+        <Button x:Name="VesiButton" Content="Весы" HorizontalAlignment="Left" Margin="75,476,0,0" Width="100" VerticalAlignment="Top" Click="VesiButton_Click"/>
+        <Button x:Name="VodoleyButton" Content="Водолей" HorizontalAlignment="Left" Margin="75,656,0,0" Width="100" VerticalAlignment="Top" Click="VodoleyButton_Click"/>
+        <Button x:Name="KozerogButton" Content="Козерог" HorizontalAlignment="Left" Margin="75,611,0,0" Width="100" VerticalAlignment="Top" Click="KozerogButton_Click"/>
+        <Label x:Name="Label1" Content="Ваш гороскоп:" HorizontalAlignment="Left" Margin="421,180,0,0" VerticalAlignment="Top" FontSize="20"/>
+        <Button Content="Показать все" HorizontalAlignment="Left" Margin="432,701,0,0" VerticalAlignment="Top" Click="Button_Click" Width="Auto"/>
+        <Label Content="Powered by vk.com/neural__horo" HorizontalAlignment="Left" Margin="666,770,0,0" VerticalAlignment="Top" FontSize="9"/>
+        <Label Content="Neural Horoscop" HorizontalAlignment="Left" Margin="370,104,0,0" VerticalAlignment="Top" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontFamily="Trebuchet MS" FontSize="30" FontWeight="Bold" FontStyle="Italic"/>
+        <Image Width="100" Height="100" Stretch="UniformToFill" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="75"
+       Source="/zDhKKcqBHQ-lorJi7BP-apNjV_S-B7FXF8utPGcPg_62a61YxvUUfsTlZFjp4tvxdvYHaBHsmQ1IyPI72xapId4s.jpg">
+            <Image.Clip>
+                <RectangleGeometry RadiusX="20" RadiusY="20" Rect="0,0,100,100"/>
+            </Image.Clip>
+        </Image>
     </Grid>
 </Window>
