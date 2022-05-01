@@ -210,5 +210,11 @@ namespace Neirogoroscop
             string ForRibi = sourceResponce.Substring(indexOfRibi, indexOfTheEnd - indexOfRibi - 3);
             outputTextbox.Text = ForRibi;
         }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            var window1 = new Window1();
+            window1.Show();
+        }
     }
 }
